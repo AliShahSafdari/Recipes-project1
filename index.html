@@ -6,6 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Page </title>
+    <style>
+        /* Basic CSS to size and position the sections */
+        header {
+            height: 100px;
+            background-color: #ccc;
+        }
+
+        nav {
+            height: 50px;
+            background-color: #999;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        section {
+            flex: 1;
+            min-height: 500px;
+            background-color: #eee;
+            margin: 10px;
+        }
+
+        footer {
+            height: 100px;
+            background-color: #ccc;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,7 +50,8 @@
     </header>
     <main>
         <section id="video-section">
-            <!-- Video content goes here -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0"
+                allowfullscreen></iframe>
         </section>
 
         <section id="sidebar-section">
